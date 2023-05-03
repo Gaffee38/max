@@ -297,10 +297,44 @@ footer{
 .carousel-control-prev, .carousel-control-next:hover{
    background-color: #5c5959ec;
 }
+.flex__wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.flex__wrapper .item a{
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+}
+.flex__wrapper .item a p{
+   color: #000;
+   margin-right: 20px;
+}
+.flex__wrapper .item img{
+   width: 60px;
+}
+@media (max-width:1124px) {
+   .flex__wrapper{
+      margin-top: 30px !important;
+      display: block;
+      max-width: 310px;
+      margin: 0 auto;
+   }
+   .flex__wrapper .item{
+      margin-bottom: 20px;
+   }
+   
+}
 @media (max-width: 990px) {
    .nav-link{
       margin-top: 10px;
       margin-bottom: 20px !important;
+   }
+   .tg_link{
+      padding: 4px 40px;
    }
 }
 @media (max-width: 910px) {
