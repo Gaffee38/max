@@ -84,7 +84,7 @@ section{
 .title__wrapper h1{
    text-align: center;
    max-width: 700px;
-   font-weight: 200 !important;
+   font-weight: 600 !important;
    font-size: 36pt;
 }
 .info__wrapper{
@@ -274,8 +274,8 @@ footer{
 }
 
 .title_fz_max{
-   font-size: 58pt !important;
-   font-weight: 200 !important;
+   font-size: 50pt !important;
+   font-weight: 600 !important;
 }
 .question{
    margin-top: 30px;
