@@ -19,7 +19,7 @@ header{
    position: fixed;
    top: 0;
    width: 100%;
-   border-bottom: 1px solid #546E7A;
+   border-bottom: 1px solid #707070;
 }
 .navbar{
    padding-top: 1px !important;
@@ -41,13 +41,12 @@ header{
    padding: 0 !important;
    margin-right: 15px;
    position: relative;
-   font-family: 'Bitter', serif !important;
 }
 .nav-item .active::before{
    content: '';
    position: absolute;
-   background-color: #546E7A;
-   height: 7px;
+   background-color: #707070;
+   height: 3px;
    width: 100%;
    bottom: -15px;
 }
@@ -59,6 +58,9 @@ section{
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+   -webkit-box-shadow: 2px -31px 42px 20px rgba(255, 255, 255, 0.96) inset;
+   -moz-box-shadow: 2px -31px 42px 20px rgba(255, 255, 255, 0.96) inset;
+   box-shadow: 2px -31px 42px 20px rgba(255, 255, 255, 0.96) inset;
 }
 .bg2{
    background-image: url(./img/bg2.png) !important;
@@ -136,16 +138,56 @@ section{
    margin-top: 50px;
    width: 100%;
 }
+.block__img2{
+   margin-right: 0 !important;
+   margin-left: 80px;
+}
+.block__info p{
+   margin-bottom: 15px;
+}
+.block__info a{
+   color: #000;
+}
 .block__info .title2{
    font-size: 24pt;
 }
 .block__cercle_img{
    margin-right: 80px;
+   
+}
+.block__cercle_img{
+   -webkit-box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset;
+   -moz-box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset;
+   box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset !important;
+
 }
 .block__img{
+   position: relative;
    margin-right: 80px;
 }
+.fullcore{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 99;
+   -webkit-box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset;
+   -moz-box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset;
+   box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset;
+
+}
+.fullcore2{
+   position: absolute;
+   border-radius: 50%;
+   width: 100%;
+   height: 100%;
+   z-index: 99;
+   -webkit-box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset;
+   -moz-box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset;
+   box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset;
+
+}
 .block__img img{
+   border-radius: 10px;
    max-width: 480px;
 }
 .quote p{
@@ -167,6 +209,9 @@ section{
 }
 .accordion-item{
    margin-top: 30px;
+}
+.accordion-body h2{
+   font-size: 24px;
 }
 
 .accordion-header .accordion-button{
@@ -207,7 +252,6 @@ footer{
    justify-content: center;
 }
 .tg_link{
-   font-family: 'Bitter', serif;
    border: 1px solid #546E7A;
    text-decoration: none;
    color: #546E7A;
@@ -315,6 +359,7 @@ footer{
 }
 .flex__wrapper .item img{
    width: 60px;
+   opacity: 0.6;
 }
 @media (max-width:1124px) {
    .flex__wrapper{
@@ -347,6 +392,7 @@ footer{
       margin: 0 auto;
    }
    .block__cercle_img{
+
       display: flex;
       justify-content: center;
       margin: 0;
