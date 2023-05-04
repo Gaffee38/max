@@ -361,6 +361,9 @@ footer{
    width: 60px;
    opacity: 0.6;
 }
+.none{
+   display: none;
+}
 @media (max-width:1124px) {
    .flex__wrapper{
       margin-top: 30px !important;
@@ -391,6 +394,12 @@ footer{
       max-width: 900px;
       margin: 0 auto;
    }
+   .notNone{
+      display: none;
+   }
+   .none{
+      display: block;
+   }
    .block__cercle_img{
 
       display: flex;
@@ -399,11 +408,13 @@ footer{
       margin-bottom: 50px;
    }
    .block__info{
+      order: 1;
       max-width: 600px !important;
       margin: 0 auto;
       margin-bottom: 30px;
    }
    .block__img{
+      order: 2;
       max-width: 910px;
       margin: 0 auto;
       margin-bottom: 50px;
