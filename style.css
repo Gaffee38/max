@@ -123,7 +123,7 @@ section{
    margin-bottom: 10px;
    margin-left: 15px;
    font-size: 18pt;
-   font-weight: 300;
+   font-weight: 600;
 }
 .block__info .list li:before{
    content: '';
@@ -164,6 +164,10 @@ section{
 .block__img{
    position: relative;
    margin-right: 80px;
+   -webkit-box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 0.6);
+-moz-box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 0.6);
+box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 1);
+   border-radius: 10px;
 }
 .fullcore{
    position: absolute;
