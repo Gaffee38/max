@@ -4,6 +4,10 @@ body{
 p{
    padding: 0;
    margin: 0;
+   font-weight: 600;
+}
+h1{
+   font-weight: 600 !important;
 }
 .container{
    max-width: 1100px !important;
@@ -80,7 +84,7 @@ section{
 .title__wrapper h1{
    text-align: center;
    max-width: 700px;
-   font-weight: 200;
+   font-weight: 200 !important;
    font-size: 36pt;
 }
 .info__wrapper{
@@ -156,16 +160,21 @@ section{
    
 }
 .block__cercle_img{
-   -webkit-box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset;
-   -moz-box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset;
-   box-shadow: 0px 0px 70px 44px rgba(255, 255, 255, 0.96) inset !important;
+   border-radius: 50%;
+   background-color: transparent;
 
+}
+.block__cercle_img img{
+   border-radius: 50%;
+   -webkit-box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 1);
+-moz-box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 1);
+box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 1);
 }
 .block__img{
    position: relative;
    margin-right: 80px;
-   -webkit-box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 0.6);
--moz-box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 0.6);
+   -webkit-box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 1);
+-moz-box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 1);
 box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 1);
    border-radius: 10px;
 }
@@ -194,12 +203,6 @@ box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 1);
    border-radius: 10px;
    max-width: 480px;
 }
-.quote p{
-   line-height: 1.38;
-   text-align: center;
-   font-size: 18pt;
-   font-weight: 300;
-}
 .accordion-button:focus{
    border-color: none;
    box-shadow: none;
@@ -220,7 +223,7 @@ box-shadow: 29px 28px 52px -19px rgba(34, 60, 80, 1);
 
 .accordion-header .accordion-button{
    font-size: 24px !important;
-   font-weight: 400;
+   font-weight: 600;
    padding-left: 0;
 }
 .accordion-body{
@@ -241,6 +244,7 @@ footer{
 }
 .social a{
    margin-right: 15px;
+   font-weight: 300 !important;
 }
 .img2{
    width: 26px;
@@ -248,7 +252,7 @@ footer{
 .tel{
    text-decoration: none;
    color: #000;
-   font-weight: 400;
+   font-weight: 600;
 }
 
 .tg_link_wrap{
@@ -262,19 +266,16 @@ footer{
    padding: 4px 120px;
    border-radius: 4px;
    transition: .2s;
+   font-weight: 600;
 }
 .tg_link:hover{
    color: #546E7A;
    background-color: #F0F0F0;
 }
 
-.quote2{
-   max-width: 900px;
-   margin: 0 auto;
-   margin-bottom: 40px;
-}
 .title_fz_max{
    font-size: 58pt !important;
+   font-weight: 200 !important;
 }
 .question{
    margin-top: 30px;
@@ -303,7 +304,6 @@ footer{
    position: relative;
    margin-right: 50px;
 }
-
 .otz_block .img p{
    position: absolute;
    z-index: 99;
@@ -363,7 +363,6 @@ footer{
 }
 .flex__wrapper .item img{
    width: 60px;
-   opacity: 0.6;
 }
 .none{
    display: none;
