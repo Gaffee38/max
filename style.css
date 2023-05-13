@@ -58,7 +58,7 @@ section{
    margin-top: 30px;
 }
 .bg{
-   background-image: url(./img/bg.png);
+   background-image: url(./img/bg.webp);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -67,13 +67,13 @@ section{
    box-shadow: 2px -31px 42px 20px rgba(255, 255, 255, 0.96) inset;
 }
 .bg2{
-   background-image: url(./img/bg2.png) !important;
+   background-image: url(./img/bg2.webp) !important;
 }
 .bg3{
-   background-image: url(./img/bg3.png) !important;
+   background-image: url(./img/bg3.webp) !important;
 }
 .bg4{
-   background-image: url(./img/bg4.png) !important;
+   background-image: url(./img/bg4.webp) !important;
 }
 .title__wrapper{
    display: flex;
