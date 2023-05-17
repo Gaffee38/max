@@ -6,7 +6,9 @@ TITLE:Специалист по недвижимости
 TEL;TYPE=main:+7 902 548 48 48
 EMAIL;type=main:pro.sekunda@mail.ru
 X-SOCIALPROFILE;type=website:sekunda.pro
-X-SOCIALPROFILE;type=website:https://vk.com/prosekunda
+X-SOCIALPROFILE;type=vk:https://vk.com/prosekunda
+X-SOCIALPROFILE;type=telegram:https://t.me/sekundapro
+X-SOCIALPROFILE;type=whatsapp:https://wa.me/89025484814
 PHOTO;TYPE=JPEG;ENCODING=BASE64:
  iVBORw0KGgoAAAANSUhEUgAAAV4AAAFeCAYAAADNK3caAAAAAXNSR0IArs4c6QAAAERlWElm
  TU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAABXqAD
